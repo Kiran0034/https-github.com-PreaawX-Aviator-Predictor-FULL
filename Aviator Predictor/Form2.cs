@@ -23,8 +23,8 @@ namespace Aviator_Hack
                 }
 
                 Form2 Form2 = new Form2();
-                Form2.Form1 = this; // İkinci formun sahibini mevcut form olarak ayarlayın
-                Form2.FormClosed += Form2_FormClosed; // Form kapatıldığında bu olayı işleyin
+                Form2.Form1 = this; 
+                Form2.FormClosed += Form2_FormClosed;
                 this.Hide();
                 Form2.Show();*/
 
