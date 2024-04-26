@@ -25,14 +25,14 @@ namespace Aviator_Hack
                 Process.Start(new ProcessStartInfo
                 {
                     FileName = "cmd",
-                    Arguments = $"/c start https://spribe.co/welcome",
+                    Arguments = $"/c start https://spribe.co/welcome", // t.me/preawdx703
                     UseShellExecute = false,
                     CreateNoWindow = true
                 });
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Hata: {ex.Message}");
+                Console.WriteLine($"Error: {ex.Message}");
             }
         }
     }
